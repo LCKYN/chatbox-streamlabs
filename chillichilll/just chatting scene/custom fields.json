@@ -1,0 +1,213 @@
+{
+    "eachMessagePadding": {
+        "label": "ระยะห่างแต่ละข้อความ",
+        "type": "slider",
+        "name": "",
+        "value": 0.5,
+        "max": 3,
+        "min": -3,
+        "steps": 0.1
+    },
+    "nameBackground": {
+        "label": "สีพื้นหลังชื่อ",
+        "type": "colorpicker",
+        "value": "#00000000"
+    },
+    "nameWidth": {
+        "label": "ความกว้างกล่องชื่อ",
+        "type": "slider",
+        "name": "",
+        "value": 100,
+        "max": 100,
+        "min": 0,
+        "steps": 5
+    },
+    "nameHeight": {
+        "label": "ความสูงกล่องชื่อ",
+        "type": "slider",
+        "name": "",
+        "value": 30,
+        "max": 100,
+        "min": 0,
+        "steps": 5
+    },
+    "nameSize": {
+        "label": "ขนาดตัวอักษรชื่อ",
+        "type": "slider",
+        "name": "",
+        "value": 20,
+        "max": 100,
+        "min": 0,
+        "steps": 1
+    },
+    "messageColor": {
+        "label": "สีข้อความ",
+        "type": "colorpicker",
+        "value": "#FFFFFF"
+    },
+    "messageSize": {
+        "label": "ขนาดตัวอักษรข้อความ",
+        "type": "slider",
+        "name": "",
+        "value": 20,
+        "max": 100,
+        "min": 0,
+        "steps": 1
+    },
+    "messageBorderWidth": {
+        "label": "ความกว้างเส้นขอบข้อความ",
+        "type": "slider",
+        "name": "",
+        "value": 0,
+        "max": 10,
+        "min": 0,
+        "steps": 0.25
+    },
+    "messageShift":{
+        "label": "การเลื่อนข้อความ",
+        "type": "slider",
+        "name": "",
+        "value": 1,
+        "max": 3,
+        "min": -3,
+        "steps": 0.1
+    },
+    "messageBorderColor": {
+        "label": "สีเส้นขอบข้อความ",
+        "type": "colorpicker",
+        "value": "#000000"
+    },
+    "messageBackground": {
+        "label": "สีพื้นหลังข้อความ",
+        "type": "colorpicker",
+        "value": "#00000088"
+    },
+    "image1": {
+        "label": "รูปภาพ 1",
+        "type": "image-input",
+        "value": null
+    },
+    "image1Size":{
+        "label": "ขนาดรูปภาพ 1",
+        "type": "slider",
+        "name": "",
+        "value": 2,
+        "max": 5,
+        "min": 0,
+        "steps": 0.25
+    },
+    "image1HShift": {
+        "label": "การเลื่อนรูปภาพ 1 แนวนอน",
+        "type": "slider",
+        "name": "",
+        "value": 0,
+        "max": 500,
+        "min": -500,
+        "steps": 1
+    },
+    "image1VShift": {
+        "label": "การเลื่อนรูปภาพ 1 แนวตั้ง",
+        "type": "slider",
+        "name": "",
+        "value": 0,
+        "max": 500,
+        "min": -500,
+        "steps": 1
+    },
+    "image2": {
+        "label": "รูปภาพ 2",
+        "type": "image-input",
+        "value": null
+    },
+    "image2Size":{
+        "label": "ขนาดรูปภาพ 2",
+        "type": "slider",
+        "name": "",
+        "value": 2,
+        "max": 5,
+        "min": 0,
+        "steps": 0.25
+    },
+    "image2HShift": {
+        "label": "การเลื่อนรูปภาพ 2 แนวนอน",
+        "type": "slider",
+        "name": "",
+        "value": 0,
+        "max": 500,
+        "min": -500,
+        "steps": 1
+    },
+    "image2VShift": {
+        "label": "การเลื่อนรูปภาพ 2 แนวตั้ง",
+        "type": "slider",
+        "name": "",
+        "value": 0,
+        "max": 500,
+        "min": -500,
+        "steps": 1
+    },
+    "image3": {
+        "label": "รูปภาพ 3",
+        "type": "image-input",
+        "value": null
+    },
+    "image3Size":{
+        "label": "ขนาดรูปภาพ 3",
+        "type": "slider",
+        "name": "",
+        "value": 2,
+        "max": 5,
+        "min": 0,
+        "steps": 0.25
+    },
+    "image3HShift": {
+        "label": "การเลื่อนรูปภาพ 3 แนวนอน",
+        "type": "slider",
+        "name": "",
+        "value": 0,
+        "max": 500,
+        "min": -500,
+        "steps": 1
+    },
+    "image3VShift": {
+        "label": "การเลื่อนรูปภาพ 3 แนวตั้ง",
+        "type": "slider",
+        "name": "",
+        "value": 0,
+        "max": 500,
+        "min": -500,
+        "steps": 1
+    },
+    "image4": {
+        "label": "รูปภาพ 4",
+        "type": "image-input",
+        "value": null
+    },
+    "image4Size":{
+        "label": "ขนาดรูปภาพ 4",
+        "type": "slider",
+        "name": "",
+        "value": 2,
+        "max": 5,
+        "min": 0,
+        "steps": 0.25
+    },
+    "image4HShift": {
+        "label": "การเลื่อนรูปภาพ 4 แนวนอน",
+        "type": "slider",
+        "name": "",
+        "value": 0,
+        "max": 500,
+        "min": -500,
+        "steps": 1
+    },
+    "image4VShift": {
+        "label": "การเลื่อนรูปภาพ 4 แนวตั้ง",
+        "type": "slider",
+        "name": "",
+        "value": 0,
+        "max": 500,
+        "min": -500,
+        "steps": 1
+    }
+}

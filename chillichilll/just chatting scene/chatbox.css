@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+Thai:400);
+
+/* General */
+html, body {
+    box-sizing: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* All */
+#log {
+    display: block;
+    position: absolute;
+    bottom: .5em;
+    left: 0;
+    padding: 0;
+  	width: 100%;
+}
+
+/* Chat Box */
+.slider {
+    position: relative;
+}
+
+#log>div .chat-box {
+    float: center;
+    clear: right;
+    width: 100%;
+    max-width: calc(100% - .5em);
+    margin: 0 .5em 0 .5em;
+    overflow: hidden;
+    border-radius: 5px;
+
+    animation: fadeInRight .3s ease forwards, fadeOut 0.5s ease {message_hide_delay} forwards;
+    -webkit-animation: fadeInRight .3s ease forwards, fadeOut 0.5s ease {message_hide_delay} forwards;
+}
+
+/* Deleted messages */
+#log>div.deleted {
+  visibility: hidden;
+}
+
+/* Emoticons */
+#log .emote {
+	display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: .4em .2em;
+    padding-top: 0;
+    position: relative;
+}
+
+#log .emote img {
+    display: block;
+    height: 1em;
+    opacity: 0;
+}
+
+/* Name and Message */
+#log .message,#log .meta {
+    vertical-align: top;
+    display: block;
+    padding: 0em 0em 0em;
+}
+
+/* Name */
+#log .meta {
+    position: relative;
+    top: .1em;
+    padding: {eachMessagePadding}em .7em .2em 0em;
+  	display: block;
+    white-space: nowrap;
+    text-overflow: none;
+    overflow: hidden;
+    background: {nameBackground};
+  	font-weight: 700;
+  	text-transform: uppercase;
+    font-family: 'Noto Sans Thai';
+    font-weight: 400;
+    font-size: {nameSize}px;
+    width: {nameWidth}%;
+    height: {nameHeight}px;
+}
+
+.name {
+    font-weight: 700;
+}
+
+/* Message */
+#log .message {
+    padding-top: -20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.3;
+    overflow: hidden;
+    position: relative;
+    background-color: {messageBackground};
+    padding-left: {messageShift}em;
+    border-radius: 3px;
+    font-weight: 300;
+    font-size: {messageSize}px;
+    margin-right: .5em;
+    color: {messageColor};
+    -webkit-text-stroke: {messageBorderWidth}px {messageBorderColor};
+    font-family: 'Noto Sans Thai';
+    font-weight: 400;
+}
+
+#log .message img,
+#log .message .emote {
+    vertical-align: bottom;
+}
+
+/* Badge */
+.badge {
+    display: inline-block;
+    margin-right: 0.2em;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    top: -0.1em;
+    image-rendering: pixelated;
+    border-radius: 3px;
+}
+
+.myImage1{
+    height: {image1Size}em;
+    width: {image1Size}em;
+    float: right;
+    position: relative;
+    left: {image1HShift}px;
+    top: {image1VShift}px;
+}
+
+.myImage2{
+    height: {image2Size}em;
+    width: {image2Size}em;
+    float: right;
+    position: relative;
+    left: {image2HShift}px;
+    top: {image2VShift}px;
+}
+
+.myImage3{
+    height: {image3Size}em;
+    width: {image3Size}em;
+    float: right;
+    position: relative;
+    left: {image3HShift}px;
+    top: {image3VShift}px;
+}
+
+.myImage4{
+    height: {image4Size}em;
+    width: {image4Size}em;
+    float: right;
+    position: relative;
+    left: {image4HShift}px;
+    top: {image4VShift}px;
+}

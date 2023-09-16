@@ -1,0 +1,24 @@
+<!-- item will be appened to this layout -->
+<div id="log" class="sl__chat__layout">
+</div>
+
+<!-- chat item -->
+<script type="text/template" id="chatlist_item">
+  <div data-from="{from}" data-id="{messageId}">
+    <span class="meta" style="color: {color}">
+      <span class="badges">
+      </span>
+      <span class="name">{from}</span>
+    </span>
+
+    <span class="message">
+      {message}
+    </span>
+    <img class="myImage1" onerror="this.style.display='none'" src={image1} />
+    <img class="myImage2" onerror="this.style.display='none'" src={image2} />
+    <img class="myImage3" onerror="this.style.display='none'" src={image3} />
+    <img class="myImage4" onerror="this.style.display='none'" src={image4} />
+    <span id="imagem">
+</span>
+  </div>
+</script>
