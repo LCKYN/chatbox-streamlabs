@@ -1,0 +1,35 @@
+{
+    "big_bar_background_color": {
+        "label": "สีพื้นหลังแถบใหญ่",
+        "type": "colorpicker",
+        "value": "#72487f"
+    },
+    "big_bar_border_size":{
+        "label": "ขนาดเส้นขอบแถบใหญ่",
+        "type": "slider",
+        "name": "",
+        "value": 3,
+        "max": 10,
+        "min": 0,
+        "steps": 0.5
+    },
+    "big_bar_border_color": {
+        "label": "สีเส้นขอบแถบใหญ่",
+        "type": "colorpicker",
+        "value": "#faca45"
+    },
+    "progress_bar_background_color": {
+        "label": "สีพื้นหลังแถบความคืบหน้า",
+        "type": "colorpicker",
+        "value": "#5a3b62"
+    },
+    "progress_bar_border_radius": {
+        "label": "ความโค้งมนแถบความคืบหน้า",
+        "type": "slider",
+        "name": "",
+        "value": 13,
+        "max": 50,
+        "min": 0,
+        "steps": 0.5
+    }
+}
